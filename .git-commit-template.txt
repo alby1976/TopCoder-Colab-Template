@@ -21,7 +21,20 @@
 
 # ----
 # Notes (optional):
-# - dataset:
-# - metric affected:
-# - runtime/memory:
-
+# Dataset:
+# - train / val / test / external
+#
+# Model / Method:
+# - algorithm, architecture, heuristic
+#
+# Change:
+# - what changed vs last submission
+#
+# Metric impact:
+# - local score / expected TC score
+#
+# Repro:
+# - seed, notebook, script
+#
+# Notes:
+# - TODO, tuning ideas
