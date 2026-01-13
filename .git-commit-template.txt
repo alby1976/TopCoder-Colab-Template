@@ -1,0 +1,27 @@
+# <type>: <what changed> [scope]
+#
+# Examples:
+# wip: tune crater threshold [scoring]
+# feat: add UNet inference pass [model]
+# fix: handle empty masks [eval]
+# perf: reduce GPU memory usage [docker]
+# chore: update submission format [topcoder]
+#
+# lists of type:
+# wip     = experiment / checkpoint
+# feat    = new model, pipeline, or logic
+# fix     = bug or correctness issue
+# perf    = speed or memory improvement
+# eval    = scoring / metrics / validation
+# data    = data prep (no raw data committed)
+# model   = model architecture / weights logic
+# docker  = Dockerfile / environment
+# submit  = submission-ready checkpoint
+# chore   = configs, README, cleanup
+
+# ----
+# Notes (optional):
+# - dataset:
+# - metric affected:
+# - runtime/memory:
+

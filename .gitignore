@@ -1,0 +1,184 @@
+################################################################################
+# OS / Editor junk
+################################################################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+################################################################################
+# Python build / cache
+################################################################################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+conda-env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+################################################################################
+# ML / Data science artifacts
+################################################################################
+# Data (don’t commit datasets or generated data by default)
+data/
+datasets/
+raw_data/
+processed_data/
+interim/
+external/
+
+# Model outputs / checkpoints
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Experiment tracking
+mlruns/
+wandb/
+wandb_runs/
+tensorboard/
+runs/
+lightning_logs/
+ray_results/
+
+# Common generated artifacts
+*.parquet
+*.feather
+*.arrow
+*.npz
+*.npy
+*.csv.gz
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+################################################################################
+# Colab / notebooks / temp
+################################################################################
+# Colab sometimes creates these
+*.ipynb~                 # autosave backups
+*.tmp
+*.log
+
+# If you export notebooks to scripts
+notebooks/.ipynb_checkpoints/
+
+################################################################################
+# Secrets (VERY IMPORTANT)
+################################################################################
+.env
+.env.*
+*.env
+
+# Keys / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+
+# AWS
+.aws/
+**/credentials
+**/config
+
+# GCP
+*service-account*.json
+*google-credentials*.json
+
+################################################################################
+# Topcoder / competition workflow
+################################################################################
+# Submission bundles or generated solutions (don’t commit)
+submission/
+submissions/
+solution/
+solutions/
+output/
+outputs/
+predictions/
+inference_outputs/
+
+# Large images or generated masks (optional—keep if your repo needs them)
+# Uncomment if you generate lots of PNGs/JPGs and don’t want them tracked:
+# *.png
+# *.jpg
+# *.jpeg
+
+# Docker build outputs (not Dockerfile itself)
+**/*.tar
+docker-build/
+
+################################################################################
+# Logs (keep folder via .gitkeep if you want structure)
+################################################################################
+logs/
+!logs/.gitkeep
+
+################################################################################
+# Allow-list: keep these even if you ignore broad folders above
+################################################################################
+# Keep documentation and configs
+!README.md
+!LICENSE
+!pyproject.toml
+!requirements*.txt
+!environment*.yml
+!Dockerfile
+!docker-compose*.yml
+!.gitignore
+
+# Keep sample/small data if you want it in repo (create these folders/files)
+!data/README.md
+!data/sample/**

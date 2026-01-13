@@ -1,0 +1,4 @@
+*
+#!directory or !file causes the directory or file not be ignored
+!.gitignore
+!.gitkeep

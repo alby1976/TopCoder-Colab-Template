@@ -76,14 +76,19 @@ File → Save a copy in Drive
 ## 📁 Repository structure
 
 ./<br>
-├── notebook.ipynb # Main Colab notebook (template)<br>
-├── requirements.txt # Python dependencies<br>
+├── LICENCE # Legal clarity<br>
 ├── README.md # This file<br>
-├── src/ # Python helper modules<br>
+├── requirements-colab.txt # Python dependencies for the colab environment<br>
+├── requirements.txt # Python dependencies<br>
+├── topcode_notebook.ipynb # Main Colab notebook (template)<br>
+├── .gitignore # a file that contain what should not be comitted to git<br>
+├── data/ # Intermediate files (Drive/local only)<br>
 ├── data_raw/ # DO NOT COMMIT DATA<br>
-├── data_work/ # Intermediate files (Drive/local only)<br>
+├── doc/ # documentation files e.g. AI & compliance documents<br>
 ├── models/ # Trained models (optional)<br>
-└── outputs/ # Predictions + submission ZIP<br>
+├── notebooks/ # data retrieval methods using colab notebooks<br>
+├── outputs/ # Predictions + submission ZIP<br>
+└── src/ # Python helper modules<br>
 
 ### Rules
 - ❌ Do not commit large datasets
